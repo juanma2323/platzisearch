@@ -5,6 +5,7 @@
 }
 html {
     font-size: 62.5%;
+    background-color: #121f3d;
 }
 a {
     text-decoration: none;
@@ -29,6 +30,21 @@ header nav .nav-right-section {
     align-items: center;
 }
 header nav .nav-right-section a {
-    margin: 10px;
-    color: black;
+    margin-right: 10px;
+    color: white;
+}
+header .nav-right-section .icon-menu {
+    background-image: url("https://static.thenounproject.com/png/756729-200.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+nav .nav-right-section img {
+    width: 50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    cursor: pointer;
 }
